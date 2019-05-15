@@ -1,0 +1,36 @@
+{
+  "name": "modelist",
+  "version": "1.0.0",
+  "description": "Model and List are new data structure for formating data",
+  "main": "./dist/index.min.js",
+  "scripts": {
+    "test": "jest",
+    "build": "webpack && rollup -c"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jarry/modelist.git"
+  },
+  "author": "jarryli@gmail.com",
+  "license": "ISC",
+  "dependencies": {
+  },
+  "devDependencies": {
+    "@babel/core": "^7.4.3",
+    "@babel/preset-env": "^7.4.3",
+    "@babel/runtime": "^7.4.3",
+    "babel-loader": "^8.0.5",
+    "babel-polyfill": "^6.26.0",
+    "webpack": "^4.6.0",
+    "webpack-require": "0.0.16",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-es2015": "^6.24.1",
+    "jest": "^23.3"
+  },
+  "keywords": [
+    "modelist",
+    "model",
+    "list",
+    "data"
+  ]
+}

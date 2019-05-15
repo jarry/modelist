@@ -1,0 +1,87 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset='utf-8'>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <title>Modelist API</title>
+</head>
+<body>
+<style>
+* {font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace,
+Helvetica, arial, sans-serif;}
+.wrapper {
+  width: 90%;
+  margin: auto;
+}
+ul {
+  border: 1px solid #03A9F4;
+  border-radius: 10px;
+  background-color: #a8cfee3d;
+}
+</style>
+  <div class="wrapper">
+      <h1>Modelist API</h1>
+      <ul>
+        <li><h2><a href='./model-api.html'>Model API</a></h2></li>
+        <li><h2><a href='./list-api.html'>List API</a></h2></li>
+      </ul>
+      <h1>Modelist Intro</h1>
+      <ul>
+        <li><h2><a href='./intro.html'>使用说明</a></h2></li>
+      </ul>
+      <h1>Modelist Demo</h1>
+      <ul>
+        <li><h2><a href='../demo/basic.html'>基本结构用法Demo</a></h2></li>
+        <li><h2><a href='../demo/adv.html'>复杂结构用法Demo</a></h2></li>
+      </ul>
+      <h1>Modelist Test</h1>
+      <ul>
+        <li><h2><a href='../test/'>测试用例</a></h2></li>
+      </ul>
+  </div>
+
+<!-- 以下内容复制到markdown生成的HTML文件中就可以出现菜单了 -->
+<!--
+
+<script src="http://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"></script>
+
+<div id="category"></div>
+<style>
+@media screen and (min-width: 914px) {
+    body {
+      width: 960px;
+      padding-left: 360px;
+      margin: 0;
+    }
+}
+#category {
+  width: 280px;
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  background: #efefef;
+  padding: 10px;
+  border-radius: 10px;
+}
+#category a.newh2 {
+  color: #1d3042;
+  font-weight: bold;
+}
+</style>
+<script type="text/javascript">
+ $(document).ready(function(){
+      $("h2,h3,h4,h5,h6").each(function(i,item){
+        var tag = $(item).get(0).localName;
+        $(item).attr("id","wow"+i);
+        $("#category").append('<a class="new'+tag+'" href="#wow'+i+'">'+$(this).text()+'</a></br>');
+        $(".newh2").css("margin-left",0);
+        $(".newh3").css("margin-left",20);
+        $(".newh4").css("margin-left",40);
+        $(".newh5").css("margin-left",60);
+        $(".newh6").css("margin-left",80);
+      });
+ });
+</script>
+-->
+</body>
+</html>
