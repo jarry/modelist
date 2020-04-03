@@ -1,6 +1,6 @@
 {
-  "name": "modelist",
-  "version": "1.0.0",
+  "name": "modelist2",
+  "version": "1.0.1",
   "description": "Model and List are new data structure for formating data",
   "main": "./dist/index.min.js",
   "scripts": {

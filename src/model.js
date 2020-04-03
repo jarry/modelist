@@ -4,7 +4,7 @@
  * - basic Model for data Model inheritance
  * - define data properties and formatter
  * - watching data change from Proxy
- * @author Jarry<jarryli@google.com>
+ * @author Jarry<jarryli@gmail.com>
  */
 
 /** Utils */

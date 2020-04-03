@@ -4,7 +4,7 @@
  * - batch processing Model member of List
  * - more util method to process List data simply
  * - watching data change use Proxy
- * @author Jarry<jarryli@google.com>
+ * @author Jarry<jarryli@gmail.com>
  */
 
 import {

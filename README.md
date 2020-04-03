@@ -5,14 +5,15 @@
 
 
 ## install
-
-
-```perl
-$ npm install 暂时没有添加
-```    
+```shell
+$ npm i modelist2
+```
+> see npm: [modelist2](https://www.npmjs.com/package/modelist2)
+  
 
 ```shell
-$ webapck # 打包umd版本
+$ npm run build   # 打包umd版本
+$ npm run dev     # 执行测试用例
 $ rollup -c # 打包 cjs与esm版本
 ```
 
@@ -140,3 +141,8 @@ $ rollup -c # 打包 cjs与esm版本
 ## 更多DEMO实例
 
 > DEMO地址：[./doc/modelist/demo/](./doc/modelist/demo/)
+
+
+## 完整引用例子
+
+> Example地址：[./doc/modelist/example/](./doc/modelist/example/)
