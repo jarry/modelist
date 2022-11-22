@@ -20,8 +20,8 @@
     "jquery": "^3.4.1",
     "modelist2": "^1.0.1",
     "uglifyjs-webpack-plugin": "^2.2.0",
-    "webpack": "^4.6.0",
-    "webpack-cli": "^3.3.11",
+    "webpack": "^4.42.1",
+    "webpack-cli": "^3.3.12",
     "webpack-require": "0.0.16"
   },
   "author": "jarryli",
